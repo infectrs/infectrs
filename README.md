@@ -2,16 +2,25 @@
 
 ```golang
 type Information struct {
-	Username string
-	Age int
-	Languages []string
+	Username  string
+	Age       int
+	Knowledge []string
+	Tools     []string
+	Projects  []string
+	Contact   map[string]string
 }
 
 func NewUser() Information {
 	return Information{
-		Username: "Infect",
-		Age: 16,
-		Languages: []string{"JS", "Golang"},
+		Username:  "Infect",
+		Age:       16,
+		Knowledge: []string{"JS", "Golang"},
+		Tools:     []string{"Visual Studio Code"},
+		Projects:  []string{"CapSolver API Wrapper", "WindMouse Go Implementation", "Geetest Captcha Solver", "Binance Captcha Solver"},
+		Contact: map[string]string{
+			"Discord":  "infectrs",
+			"Telegram": "infectre",
+		},
 	}
 }
 ```
