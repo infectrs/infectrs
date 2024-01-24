@@ -1,16 +1,21 @@
-### Hi there 👋
+<h1>Information</h1>
 
-<!--
-**infectrs/infectrs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```golang
+type Information struct {
+	Username string
+	Age int
+	Languages []string
+}
 
-Here are some ideas to get you started:
+func NewUser() Information {
+	return Information{
+		Username: "Infect",
+		Age: 16,
+		Languages: []string{"JS", "Golang"},
+	}
+}
+```
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<h2>Stats</h2>
+
+[![infectrs's GitHub stats](https://github-readme-stats.vercel.app/api?username=infectrs)](https://github.com/anuraghazra/github-readme-stats)
