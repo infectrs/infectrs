@@ -6,7 +6,6 @@ type Information struct {
 	Age       int
 	Knowledge []string
 	Tools     []string
-	Projects  []string
 	Contact   map[string]string
 }
 
